@@ -1,0 +1,36 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "BROWSERSTACK_USERNAME",
+  "access_key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "project": "hEAD sPIN",
+    "build": "Native",
+    "name": "hEAD sPIN",
+    "browserstack.debug": true,
+    "app": "bs://<app-id>"
+  },
+
+  "environments": [
+    {
+      "device": "iPhone 11 Pro",
+      "os_version": "15"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "os_version": "15.2"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "os_version": "15.2"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "os_version": "15.0"
+    },
+    {
+      "device": "Samsung Galaxy Note 20",
+      "os_version": "10.0"
+    }
+  ]
+}
